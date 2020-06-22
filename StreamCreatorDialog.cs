@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Trinet.Core.IO.Ntfs;
 using System.IO;
 
-namespace NTFSStreamsEditor
+namespace AlternateStreamsEditor
 {
     public partial class StreamCreatorDialog : Form
     {
@@ -21,6 +21,11 @@ namespace NTFSStreamsEditor
         {
             InitializeComponent();
             Info = info;
+        }
+
+        private void StreamCreatorDialog_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
@@ -38,7 +43,7 @@ namespace NTFSStreamsEditor
         {
             if (Info.AlternateDataStreamExists(textBox1.Text))
             {
-                MessageBox.Show("That Stream alteady exists!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("That Stream already exists!", "AlternateStreamsEditor", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {

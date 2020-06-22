@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Trinet.Core.IO.Ntfs;
 
-namespace NTFSStreamsEditor
+namespace AlternateStreamsEditor
 {
     public partial class StreamInfoDialog : Form
     {

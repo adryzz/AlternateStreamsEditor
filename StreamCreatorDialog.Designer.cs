@@ -1,4 +1,4 @@
-﻿namespace NTFSStreamsEditor
+﻿namespace AlternateStreamsEditor
 {
     partial class StreamCreatorDialog
     {
@@ -90,6 +90,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Insert the name of the new Stream";
+            this.Load += new System.EventHandler(this.StreamCreatorDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

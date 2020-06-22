@@ -1,4 +1,4 @@
-﻿namespace NTFSStreamsEditor
+﻿namespace AlternateStreamsEditor
 {
     partial class StreamInfoDialog
     {

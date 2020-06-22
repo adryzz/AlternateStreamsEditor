@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NTFSStreamsEditor.Properties
+namespace AlternateStreamsEditor.Properties
 {
 
 
